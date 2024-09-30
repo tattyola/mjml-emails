@@ -1,0 +1,20 @@
+<mjml>
+    <mj-body>
+        <mj-section>
+            <mj-column>
+                {{#if welcome}}
+                <mj-text>{{welcome}}</mj-text>
+                {{/if}}
+                <mj-text>
+                    Hello {{name}},
+                </mj-text>
+                <mj-text>
+                    Thank you for your order! Your order number is {{orderNumber}}.
+                </mj-text>
+                <mj-button href="https://yourstore.com/orders/{{orderNumber}}">
+                    View Your Order
+                </mj-button>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
