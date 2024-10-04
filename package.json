@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "mjml --watch emailTemplate.mjml -o emailTemplate.html",
-    "compileWithNewConfig": "mjml --watch emailtemplate.mjml --config=.mjmlconfig.js -o emailTemplateNewConfig.html"
+    "compile": "mjml --watch template.mjml -o template.html",
+    "compileWithNewConfig": "mjml --watch template.mjml --config=.mjmlconfig.js -o templateNewConfig.html"
   },
   "keywords": [],
   "author": "",

@@ -3,10 +3,12 @@ const fs = require('fs');
 const Handlebars = require('handlebars');
 
 // Load the raw MJML file
-const rawMJML = fs.readFileSync('./emailTemplate.mjml', 'utf8');
+// const rawMJML = fs.readFileSync('./emailTemplate.mjml', 'utf8');
+const rawMJML = fs.readFileSync('./template.mjml', 'utf8');
 
 // Load the JSON data
-const templateData = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
+// const templateData = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
+const templateData = JSON.parse(fs.readFileSync('./emailsData.json', 'utf8'));
 
 // Compile the MJML using Handlebars
 const handlebarsTemplate = Handlebars.compile(rawMJML);

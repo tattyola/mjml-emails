@@ -1,0 +1,221 @@
+[
+  {
+    "text": "Welcome to Fleet Insights. This monthly report provides idling data and ways to help increase fleet efficiency and decrease cost.",
+    "firstName": "Maria1",
+    "fleetName": "Fleet1",
+    "companyName": "Best Company LLC",
+    "timePeriod": "June",
+    "energyInsightsComponent": {
+      "fuel": {
+        "title": "Total fuel cost",
+        "value": "18,900",
+        "numeratorUnit": "$",
+        "color": "#008035",
+        "arrowDirection": "M12 5V19M12 19L19 12M12 19L5 12",
+        "pillValue": "10%"
+      },
+      "idling": {
+        "title": "Total idling costs",
+        "value": "2,500",
+        "numeratorUnit": "$",
+        "color": "#CC0300",
+        "arrowDirection": "M12 19V5M12 5L5 12M12 5L19 12",
+        "pillValue": "25%"
+      }
+    },
+    "recommendationComponent": [
+      {
+        "timePeriod": "June",
+        "text": "<div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#0C1114;'>Save up to $10,000/month* by reducing the idling events to 5 minutes or less</div>",
+        "value": "10,000",
+        "numeratorUnit": "$",
+        "color": "#008035",
+        "table2": {
+          "tableHeader": "Top 5 idling events",
+          "tableRows": [
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "45 min"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "45 min"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "45 min"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "45 min"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "45 min"
+            }
+          ]
+        }
+      }
+    ],
+    "fullReportUrl": "insightsLinkForFleet1",
+    "linkText": "https://www.example.com/fleet_12345",
+    "emailPreferences": "https://www.example.com/fleet_12345/emailPreferences",
+    "unsubscribe": "https://www.example.com/fleet_12345/unsubscribe"
+  },
+  {
+    "text": "Here’s your monthly Fleet insights report for idling.",
+    "firstName": "Maria2",
+    "fleetName": "Fleet1",
+    "companyName": "Best Company LLC",
+    "timePeriod": "October",
+    "energyInsightsComponent": {
+      "fuel": {
+        "title": "Total fuel cost",
+        "value": "18,900",
+        "numeratorUnit": "$",
+        "color": "#008035",
+        "arrowDirection": "M12 5V19M12 19L19 12M12 19L5 12",
+        "pillValue": "10%"
+      },
+      "idling": {
+        "title": "Total idling costs",
+        "value": "2,500",
+        "numeratorUnit": "$",
+        "color": "#CC0300",
+        "arrowDirection": "M12 19V5M12 5L5 12M12 5L19 12",
+        "pillValue": "25%"
+      }
+    },
+    "recommendationComponent": [
+      {
+        "timePeriod": "October",
+        "text": "<div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#0C1114;'>Save up to $10,000/month* by reducing the idling of these top 5 vehicles</div>",
+        "value": "10,000",
+        "numeratorUnit": "$",
+        "color": "#008035",
+        "table2": {
+          "tableHeader": "Top 5 idling locations",
+          "tableRows": [
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "4 h45 min",
+              "events": "32 events"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "4 h45 min",
+              "events": "32 events"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "4 h45 min",
+              "events": "32 events"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "4 h45 min",
+              "events": "32 events"
+            },
+            {
+              "image": "./images/chevrolet-ev.png",
+              "vehicleName": "Chevrolet EV",
+              "VINNumber": "VIN3456",
+              "duration": "4 h45 min",
+              "events": "32 events"
+            }
+          ]
+        }
+      }
+    ],
+    "fullReportUrl": "insightsLinkForFleet1",
+    "linkText": "https://www.example.com/fleet_12345",
+    "emailPreferences": "https://www.example.com/fleet_12345/emailPreferences",
+    "unsubscribe": "https://www.example.com/fleet_12345/unsubscribe"
+  },
+  {
+    "text": "Here’s your monthly Fleet insights report for idling.",
+    "firstName": "Maria3",
+    "fleetName": "Fleet1",
+    "companyName": "Best Company LLC",
+    "timePeriod": "October",
+    "energyInsightsComponent": {
+      "fuel": {
+        "title": "Total fuel cost",
+        "value": "18,900",
+        "numeratorUnit": "$",
+        "color": "#008035",
+        "arrowDirection": "M12 5V19M12 19L19 12M12 19L5 12",
+        "pillValue": "10%"
+      },
+      "idling": {
+        "title": "Total idling costs",
+        "value": "2,500",
+        "numeratorUnit": "$",
+        "color": "#CC0300",
+        "arrowDirection": "M12 19V5M12 5L5 12M12 5L19 12",
+        "pillValue": "25%"
+      }
+    },
+    "recommendationComponent": [
+      {
+        "timePeriod": "October",
+        "text": "<div style='font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#0C1114;'>Save up to $10,000/month* by reducing the idling in these top locations</div>",
+        "value": "10,000",
+        "numeratorUnit": "$",
+        "color": "#008035",
+        "table3": {
+          "tableHeader": "Top 5 idling locations",
+          "tableRows": [
+            {
+              "address": "2nd St, Palo Alto, CA",
+              "eventsVehicles": "32 events · 32 events",
+              "duration": "4 h45 min"
+            },
+            {
+              "address": "2nd St, Palo Alto, CA",
+              "eventsVehicles": "32 events · 32 events",
+              "duration": "4 h45 min"
+            },
+            {
+              "address": "2nd St, Palo Alto, CA",
+              "eventsVehicles": "32 events · 32 events",
+              "duration": "4 h45 min"
+            },
+            {
+              "address": "2nd St, Palo Alto, CA",
+              "eventsVehicles": "32 events · 32 events",
+              "duration": "4 h45 min"
+            },
+            {
+              "address": "2nd St, Palo Alto, CA",
+              "eventsVehicles": "32 events · 32 events",
+              "duration": "4 h45 min"
+            }
+          ]
+        }
+      }
+    ],
+    "fullReportUrl": "insightsLinkForFleet1",
+    "linkText": "https://www.example.com/fleet_12345",
+    "emailPreferences": "https://www.example.com/fleet_12345/emailPreferences",
+    "unsubscribe": "https://www.example.com/fleet_12345/unsubscribe"
+  }
+]
